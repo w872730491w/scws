@@ -1,0 +1,24 @@
+{
+    "name": "w872730491w/scws",
+    "description": "简易中文分词系统在Laravel的封装包。",
+    "keywords": ["Laravel", "SCWS"],
+    "homepage": "https://github.com/w872730491w/SCWS",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "w872730491w",
+            "email": "872730491@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "ext-scws": ">=0.2.1",
+        "illuminate/support": "^7.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Latrell\\Scws\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
